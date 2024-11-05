@@ -25,9 +25,9 @@ const content = document.getElementById("content");
 sections.forEach(({ name, data, columns }) => {
   const sectionDiv = document.createElement("div");
   sectionDiv.id = name;
-  sectionDiv.className = "container mx-auto p-20 pb-0";
+  sectionDiv.className = "container mx-auto p-10 md:p-20 pb-0";
   sectionDiv.innerHTML = `
-        <h1 class="text-4xl capitalize">${name}</h1>
+        <h1 class="text-2xl md:text-4xl capitalize">${name}</h1>
         <div id="${name}-container" class="grid ${columns} gap-10 mt-10"></div>
     `;
   content.appendChild(sectionDiv);
@@ -38,9 +38,9 @@ sections.forEach(({ name, data, columns }) => {
       div.className =
         "bg-gray-800 p-5 rounded-lg hover:scale-105 transition-transform";
       div.innerHTML = `
-                <h2 class="text-2xl">${title}</h2>
-                <p class="text-gray-300 italic">${date}</p>
-                <p class="mt-5">${description}</p>
+                <h2 class="text-lg md:text-2xl">${title}</h2>
+                <p class=" text-sm md:text-base text-gray-300 italic">${date}</p>
+                <p class="mt-2 md:mt-5">${description}</p>
             `;
       document.getElementById(`${name}-container`).appendChild(div);
     });
