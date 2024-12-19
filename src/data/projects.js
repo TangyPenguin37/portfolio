@@ -15,7 +15,7 @@ const projects = [
     title: "Further Web Development and Maintenance",
     date: "2015-2022",
     description:
-      "I built and maintained the websites for my local GP surgery, church, and the aforementioned conference, and maintained them for several years.",
+      "I built and maintained the websites for my local GP surgery, church, and the aforementioned conference, and maintained them for several years. I also actively build and maintain my own personal website, as well as those of several university societies, as mentioned in the 'Education' section.",
   },
   {
     title: "Smart Home System",
