@@ -1,0 +1,1 @@
+This is the source code for my personal website! It's a simple static site built in plain HTML, CSS, and JavaScript, albeit with the Tailwind CSS framework. It's hosted on Cloudflare Pages and can be found at [https://samuelmashil.pages.dev/](https://samuelmashil.pages.dev/).
