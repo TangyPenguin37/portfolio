@@ -36,6 +36,10 @@ const navBar = () => {
 };
 
 $(document).ready(() => {
+
+  const year = new Date().getFullYear();
+  document.getElementById("year").innerText = year;
+
   navBar();
   $(document).on("scroll", navBar);
 
