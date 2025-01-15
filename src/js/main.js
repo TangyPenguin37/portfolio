@@ -6,11 +6,13 @@ function readMore(moreContentId, readMoreButtonId) {
     moreContent.style.display === ""
   ) {
     $(moreContent).slideDown();
-    readMoreButton.innerText = "Read Less ↑";
+    // readMoreButton.innerText = "Read Less ↑";
+    readMoreButton.innerHTML = 'Read Less <span class="not-italic">↑</span>';
     moreContent.style.display = "block";
   } else {
     $(moreContent).slideUp();
-    readMoreButton.innerText = "Read More ↓";
+    // readMoreButton.innerText = "Read More ↓";
+    readMoreButton.innerHTML = 'Read More <span class="not-italic">↓</span>';
   }
 }
 
