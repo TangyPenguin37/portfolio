@@ -1,7 +1,13 @@
 const experience = [
   {
+    title: "Software Consultant | Waymont Consulting",
+    date: "September 2025 - Present",
+    description:
+      "I am currently working as a software consultant at Waymont Consulting, a small technical consultancy firm based in Guildford, Surrey.",
+  },
+  {
     title: "Ambassador | OXEX",
-    date: "September 2024 - Present",
+    date: "September 2024 - July 2025",
     description:
       "Following on from our successful collaboration during the King's Affair 2024, I was invited by OXEX to act as an ambassador for their ticketing platform at the University of Cambridge. This role involves promoting the platform to other student societies and event organisers, as well as providing feedback and suggestions for future development.",
   },
